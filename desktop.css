@@ -1,0 +1,40 @@
+@media screen and (min-width: 700px) {
+  header #hfirst {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header #hfirst nav ul li {
+    display: inline-block;
+    align-items: center;
+    margin-right: 2em;
+    font-size: 1.5em;
+  }
+
+  header #hsecond {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  main p {
+    margin-left: 30em;
+    margin-right: 30em;
+  }
+
+  main section {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  main section article {
+    width: 25%;
+  }
+}
